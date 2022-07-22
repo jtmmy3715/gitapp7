@@ -36,6 +36,7 @@ public class MyHellloWorld extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>");
 		out.println("<h1>This is my first HelloWorld Servlet Sample</h1>");
+		out.println("<h1>This is my first HelloWorld Servlet Sample</h1>");
 		out.println("</html></body>");
 	}
 		
